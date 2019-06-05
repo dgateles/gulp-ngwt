@@ -2,7 +2,7 @@
 
 ## Usage
 
-First, install `gulp-nightwatch` as a development dependency:
+First, install `gulp-ngwt` as a development dependency:
 
 ```sh
 npm install --save-dev gulp-nightwatch
@@ -66,6 +66,11 @@ The path to your Nightwatch config
 
 Type: `Array` or `Object`
 Default: null
+
+##### abortOnFailure
+
+Type: `Bool`
+Default: True
 
 Command line options for Nightwatch
 
