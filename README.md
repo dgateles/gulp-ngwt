@@ -51,6 +51,18 @@ gulp.task('nightwatch:chrome', function(){
 });
 ```
 
+You can abort Gulp execution when tests fail.
+
+```javascript
+gulp.task('nightwatch:chrome', function(){
+  return gulp.src('gulpfile.js')
+    .pipe(nightwatch({
+      configFile: 'test/nightwatch.json',
+      abortOnFailure: true
+    }));
+});
+```
+
 ## API
 
 ### nightwatch(options)
@@ -72,7 +84,7 @@ Default: null
 ##### abortOnFailure
 
 Type: `Bool`
-Default: True
+Default: False
 
 Command line options for Nightwatch
 
