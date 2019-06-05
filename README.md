@@ -1,4 +1,6 @@
-# gulp-nightwatch [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+# gulp-ngwt [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+
+A fork from tatsuyafw/gulp-nightwatch
 
 ## Usage
 
