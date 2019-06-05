@@ -28,6 +28,10 @@ var nightwatchPlugin = function(options) {
   if (options.cliArgs) {
     helper.merge(nightwatchOptions, helper.parseCliArgs(options.cliArgs));
   }
+  
+  if (options.abortOnFailure === undefined) {
+    options.abortOnFailure = false;
+  }
 
   function done(code) {
     if (child) {
