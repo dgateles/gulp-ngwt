@@ -77,7 +77,7 @@ Default: True
 Command line options for Nightwatch
 
 
-[npm-image]: https://img.shields.io/npm/v/gulp-nightwatch.svg
-[npm-url]: https://www.npmjs.com/package/gulp-nightwatch
-[travis-image]: https://img.shields.io/travis/tatsuyafw/gulp-nightwatch.svg
-[travis-url]: https://travis-ci.org/tatsuyafw/gulp-nightwatch
+[npm-image]: https://img.shields.io/npm/v/gulp-ngwt.svg
+[npm-url]: https://www.npmjs.com/package/gulp-ngwt
+[travis-image]: https://img.shields.io/travis/dgateles/gulp-ngwt.svg
+[travis-url]: https://travis-ci.org/dgateles/gulp-ngwt
