@@ -7,14 +7,14 @@ A fork from tatsuyafw/gulp-nightwatch
 First, install `gulp-ngwt` as a development dependency:
 
 ```sh
-npm install --save-dev gulp-nightwatch
+npm install --save-dev gulp-ngwt
 ```
 
 Then, write your gulpfile.js as below.
 
 ```javascript
 var gulp = require('gulp'),
-    nightwatch = require('gulp-nightwatch');
+    nightwatch = require('gulp-ngwt');
 
 gulp.task('default', function() {
   return gulp.src('gulpfile.js')
