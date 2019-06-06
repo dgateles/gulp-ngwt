@@ -21,15 +21,15 @@
   },
   "homepage": "https://github.com/dgateles/gulp-ngwt",
   "dependencies": {
-    "fancy-log": "^1.3.2",
-    "minimist": "^1.1.1",
-    "nightwatch": "^1.0.6",
+    "fancy-log": "^1.3.3",
+    "minimist": "^1.2.0",
+    "nightwatch": "^1.1.11",
     "plugin-error": "^1.0.1",
-    "shell-quote": "^1.4.3",
+    "shell-quote": "^1.6.1",
     "through": "^2.3.8"
   },
   "devDependencies": {
-    "chai": "^2.1.2",
-    "mocha": "^5.0.1"
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }
