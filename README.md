@@ -1,4 +1,4 @@
-# gulp-ngwt [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+# gulp-ngwt [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependencies][greenkeeper-image]][greenkeeper-url]
 
 A fork from tatsuyafw/gulp-nightwatch
 
@@ -93,3 +93,5 @@ Command line options for Nightwatch
 [npm-url]: https://www.npmjs.com/package/gulp-ngwt
 [travis-image]: https://img.shields.io/travis/dgateles/gulp-ngwt.svg
 [travis-url]: https://travis-ci.org/dgateles/gulp-ngwt
+[greenkeeper-image]: https://badges.greenkeeper.io/dgateles/gulp-ngwt.svg
+[greenkeeper-url]: https://greenkeeper.io/
