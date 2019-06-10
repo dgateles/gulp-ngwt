@@ -9,11 +9,14 @@ var PluginError = require('plugin-error');
 
 var PLUGIN_NAME = 'gulp-ngwt';
 
-var nightwatchPlugin = function(options) {
+var nightwatchPlugin = function (options) {
   var child,
-      stream,
-      files = [],
-      nightwatchOptions = { config: 'nightwatch.json', env: 'default' };
+    stream,
+    files = [],
+    nightwatchOptions = {
+      config: 'nightwatch.json',
+      env: 'default'
+    };
 
   options = options || {};
 
@@ -28,7 +31,7 @@ var nightwatchPlugin = function(options) {
   if (options.cliArgs) {
     helper.merge(nightwatchOptions, helper.parseCliArgs(options.cliArgs));
   }
-  
+
   if (options.abortOnFailure === undefined) {
     options.abortOnFailure = false;
   }
@@ -57,13 +60,12 @@ var nightwatchPlugin = function(options) {
       [
         path.join(__dirname, 'lib', 'background.js'),
         JSON.stringify(nightwatchOptions) // Nightwatch args
-      ],
-      {
+      ], {
         stdio: 'inherit'
       }
     );
 
-    child.on('exit', function(code) {
+    child.on('exit', function (code) {
       done(code);
     });
 
