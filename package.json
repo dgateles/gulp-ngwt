@@ -22,7 +22,7 @@
   "homepage": "https://github.com/dgateles/gulp-ngwt",
   "dependencies": {
     "fancy-log": "^1.3.3",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "nightwatch": "^1.3.4",
     "plugin-error": "^1.0.1",
     "shell-quote": "^1.7.2",
